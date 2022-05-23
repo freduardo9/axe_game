@@ -41,8 +41,8 @@ int main() // Method
     blueCircle.bottom = blueCircle.y + blueCircle.radius;       // Blue Bottom Edge 
 
     // Orange Circle Structure
-    orangeCircle.x = gameWindow.width - 50;                 // Orange Starting x position
-    orangeCircle.y = 0;                 // Orange Starting y position
+    orangeCircle.x = gameWindow.width - 50;                     // Orange Starting x position
+    orangeCircle.y = 0;                                         // Orange Starting y position
     orangeCircle.radius = 25;                                   // Orange Starting radius
     orangeCircle.color = ORANGE;                                // COLOR 
     orangeCircle.left = orangeCircle.x - orangeCircle.radius;   // Orange Left Edge 
@@ -83,9 +83,9 @@ int main() // Method
                         (r_square_x >= blueCircle.left) && 
                         (l_square_x <= blueCircle.right);
 
-
+    
     // Game Window   
-    InitWindow(gameWindow.width, gameWindow.height, "Meteor Falls"); // InitWindow will run for as long as the main() executes
+    InitWindow(gameWindow.width, gameWindow.height, "Meteor Falls"); 
     
     SetTargetFPS(FPS);
 
