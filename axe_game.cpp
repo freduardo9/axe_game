@@ -31,24 +31,24 @@ int main() // Method
 
 
     // Blue Circle Structure
-    blueCircle.x = float(gameWindow.width/2);                   // Blue Starting x position
-    blueCircle.y = float(gameWindow.width/2);                   // Blue Starting y position
-    blueCircle.radius = 25;                                     // Blue Starting radius
+    blueCircle.x = float(gameWindow.width/2);                   // Starting x position
+    blueCircle.y = float(gameWindow.width/2);                   // Starting y position
+    blueCircle.radius = 25;                                     // Starting radius
     blueCircle.color = BLUE;                                    // COLOR 
-    blueCircle.left = blueCircle.x - blueCircle.radius;         // Blue Left Edge 
-    blueCircle.right = blueCircle.x + blueCircle.radius;        // Blue Right Edge 
-    blueCircle.top = blueCircle.y - blueCircle.radius;          // Blue Top Edge 
-    blueCircle.bottom = blueCircle.y + blueCircle.radius;       // Blue Bottom Edge 
+    blueCircle.left = blueCircle.x - blueCircle.radius;         // Left Edge 
+    blueCircle.right = blueCircle.x + blueCircle.radius;        // Right Edge 
+    blueCircle.top = blueCircle.y - blueCircle.radius;          // Top Edge 
+    blueCircle.bottom = blueCircle.y + blueCircle.radius;       // Bottom Edge 
 
     // Orange Circle Structure
-    orangeCircle.x = gameWindow.width - 50;                     // Orange Starting x position
-    orangeCircle.y = 0;                                         // Orange Starting y position
-    orangeCircle.radius = 25;                                   // Orange Starting radius
+    orangeCircle.x = gameWindow.width - 50;                     // Starting x position
+    orangeCircle.y = 0;                                         // Starting y position
+    orangeCircle.radius = 25;                                   // Starting radius
     orangeCircle.color = ORANGE;                                // COLOR 
-    orangeCircle.left = orangeCircle.x - orangeCircle.radius;   // Orange Left Edge 
-    orangeCircle.right = orangeCircle.x + orangeCircle.radius;  // Orange Right Edge 
-    orangeCircle.top = orangeCircle.y - orangeCircle.radius;    // Orange Top Edge 
-    orangeCircle.bottom = orangeCircle.y + orangeCircle.radius; // Orange Bottom Edge 
+    orangeCircle.left = orangeCircle.x - orangeCircle.radius;   // Left Edge 
+    orangeCircle.right = orangeCircle.x + orangeCircle.radius;  // Right Edge 
+    orangeCircle.top = orangeCircle.y - orangeCircle.radius;    // Top Edge 
+    orangeCircle.bottom = orangeCircle.y + orangeCircle.radius; // Bottom Edge 
 
 
     // Rectangle Structures 
